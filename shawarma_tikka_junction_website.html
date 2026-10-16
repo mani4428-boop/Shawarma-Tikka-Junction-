@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#f47721">
+<meta name="description" content="Shawarma and Tikka Junction at Shakthinagara, Mangalore. Shawarma, chicken tikka, Al-faham, fresh juices and cold drinks. Free home delivery within 3 km.">
+<title>Shawarma and Tikka Junction | Shakthinagara, Mangalore</title>
+<style>
+:root{--orange:#f47721;--orange2:#ff9b3d;--ink:#171717;--cream:#fff8ef;--muted:#6e6259;--white:#fff}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;color:var(--ink);background:var(--cream)}
+a{color:inherit;text-decoration:none}.wrap{width:min(1120px,92%);margin:auto}
+header{position:sticky;top:0;z-index:10;background:#171717f5;color:white;border-bottom:3px solid var(--orange)}
+.nav{display:flex;align-items:center;justify-content:space-between;gap:18px;padding:13px 0}.brand{display:flex;align-items:center;gap:10px;font-weight:900;letter-spacing:.3px}.mark{display:grid;place-items:center;width:44px;height:44px;border-radius:50%;background:var(--orange);font-size:23px}.brand small{display:block;color:#ffc18f;font-size:10px;letter-spacing:1.5px}.navlinks{display:flex;gap:22px;font-size:14px;font-weight:700}.navlinks a:hover{color:#ffb16e}.order-top{background:var(--orange);padding:11px 15px;border-radius:999px;font-weight:800;white-space:nowrap}
+.hero{background:radial-gradient(circle at 78% 30%,#7b3718 0,#32180f 26%,#171717 66%);color:white;overflow:hidden;position:relative}
+.hero-grid{display:grid;grid-template-columns:1.1fr .9fr;align-items:center;gap:35px;padding:76px 0 70px;min-height:510px}.eyebrow{color:#ffb16e;text-transform:uppercase;font-size:12px;font-weight:900;letter-spacing:3px}.hero h1{font-size:clamp(40px,6vw,76px);line-height:.98;letter-spacing:-2px;margin:18px 0}.hero h1 span{color:var(--orange)}.hero p{color:#e4d7cd;font-size:17px;line-height:1.7;max-width:520px}.hero-buttons{display:flex;flex-wrap:wrap;gap:12px;margin-top:25px}.btn{display:inline-flex;justify-content:center;align-items:center;gap:8px;padding:14px 20px;border-radius:9px;font-weight:850;border:1px solid transparent;cursor:pointer}.btn-primary{background:var(--orange);color:white}.btn-outline{border-color:#ffffff70;color:white}.hero-art{position:relative;min-height:320px;display:grid;place-items:center}.food-circle{width:min(330px,75vw);aspect-ratio:1;border-radius:50%;background:linear-gradient(135deg,#ffb45f,#a63d13);display:grid;place-items:center;box-shadow:0 25px 70px #0008;border:8px solid #ffffff15}.food-emoji{font-size:clamp(120px,20vw,205px);filter:drop-shadow(0 15px 12px #4a160a);transform:rotate(-8deg)}.badge{position:absolute;right:0;bottom:25px;background:white;color:#171717;padding:15px 18px;border-radius:14px;font-weight:900;box-shadow:0 10px 25px #0005;transform:rotate(4deg)}.badge strong{display:block;color:var(--orange);font-size:21px}
+.perks{background:var(--orange);color:white}.perks-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;padding:19px 0}.perk{text-align:center;font-size:13px;font-weight:850;letter-spacing:.4px}.perk b{display:block;font-size:19px;margin-bottom:4px}
+section{padding:72px 0}.section-head{text-align:center;max-width:680px;margin:0 auto 35px}.kicker{color:var(--orange);font-size:12px;font-weight:900;letter-spacing:2.5px;text-transform:uppercase}.section-head h2{font-size:clamp(30px,4vw,45px);margin:9px 0 10px;letter-spacing:-1px}.section-head p{color:var(--muted);line-height:1.7;margin:0}
+.menu-tabs{display:flex;justify-content:center;gap:9px;flex-wrap:wrap;margin-bottom:27px}.tab{border:1px solid #ead8c6;background:white;padding:10px 16px;border-radius:999px;font-weight:800;cursor:pointer}.tab.active,.tab:hover{background:var(--ink);color:white;border-color:var(--ink)}
+.menu-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}.menu-card{background:white;border:1px solid #f0e2d4;border-radius:15px;padding:20px;display:flex;align-items:center;gap:14px;box-shadow:0 6px 20px #572d0a08;transition:transform .2s,box-shadow .2s}.menu-card:hover{transform:translateY(-3px);box-shadow:0 12px 28px #572d0a12}.food-icon{width:54px;height:54px;flex:0 0 54px;display:grid;place-items:center;background:#fff0e1;border-radius:12px;font-size:27px}.dish{font-weight:850;font-size:16px}.desc{font-size:12px;color:var(--muted);margin-top:5px}.price{margin-left:auto;padding-left:10px;color:var(--orange);font-size:18px;font-weight:950;white-space:nowrap}.price.na{font-size:12px;color:#8c8177}.card-order{display:block;margin-top:7px;color:#13834c;font-size:12px;font-weight:800}
+.delivery{background:#171717;color:white}.delivery-box{display:grid;grid-template-columns:1fr auto;align-items:center;gap:25px;border:1px solid #ffffff20;border-radius:22px;padding:35px;background:linear-gradient(120deg,#2b1c15,#171717)}.delivery h2{font-size:clamp(29px,4vw,42px);margin:7px 0}.delivery p{color:#d4c8c0;line-height:1.7;margin-bottom:0}.delivery .big{font-size:50px}
+.services-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.service{padding:26px 18px;text-align:center;background:white;border-radius:16px;border:1px solid #f0e2d4}.service .ico{font-size:34px}.service h3{margin:12px 0 5px}.service p{margin:0;color:var(--muted);font-size:14px}
+.contact{background:#fff0e1}.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:25px;align-items:center}.contact h2{font-size:clamp(30px,4vw,43px);margin:9px 0}.contact p{color:var(--muted);line-height:1.7}.phone-list{display:grid;gap:12px}.phone{background:white;border:1px solid #f2d8c0;padding:17px 19px;border-radius:12px;font-weight:900;display:flex;justify-content:space-between;align-items:center;gap:12px}.phone span{color:var(--orange)}.phone small{color:#16854d;font-weight:800}
+footer{background:#171717;color:white;padding:30px 0}.foot{display:flex;justify-content:space-between;gap:18px;align-items:center;flex-wrap:wrap}.foot p{margin:5px 0 0;color:#b9aaa0;font-size:13px}.foot-tag{color:#ffb16e;font-weight:900;letter-spacing:1px}.float-order{position:fixed;right:18px;bottom:18px;z-index:15;background:#16854d;color:white;padding:14px 18px;border-radius:999px;box-shadow:0 8px 25px #0003;font-weight:900}
+@media(max-width:760px){.navlinks{display:none}.hero-grid{grid-template-columns:1fr;padding:55px 0 45px;text-align:center}.hero p{margin:0 auto}.hero-buttons{justify-content:center}.hero-art{min-height:260px}.food-circle{width:250px}.badge{right:6%;bottom:5px}.perks-grid{grid-template-columns:1fr;gap:15px}.menu-grid{grid-template-columns:1fr}.delivery-box{grid-template-columns:1fr;text-align:center}.services-grid{grid-template-columns:1fr}.contact-grid{grid-template-columns:1fr}.section-head{margin-bottom:27px}section{padding:55px 0}.menu-card{padding:15px}.price{font-size:17px}.food-icon{width:48px;height:48px;flex-basis:48px}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}}
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap nav">
+    <a class="brand" href="#home"><span class="mark">🔥</span><span>SHAWARMA &amp; TIKKA JUNCTION<small>SHAKTHINAGARA · MANGALORE</small></span></a>
+    <nav class="navlinks"><a href="#menu">Menu</a><a href="#delivery">Delivery</a><a href="#about">Our Service</a><a href="#contact">Contact</a></nav>
+    <a class="order-top" href="#contact">Order Now ↗</a>
+  </div>
+</header>
+<main>
+<section class="hero" id="home">
+  <div class="wrap hero-grid">
+    <div>
+      <div class="eyebrow">Shakthi Fine Dine, Bar and Family Restaurant</div>
+      <h1>TASTE MEETS<br><span>TOGETHER.</span></h1>
+      <p>Good food. Great company. Come enjoy delicious shawarma, sizzling chicken tikka, Al-faham and refreshing drinks at Shakthinagara, Mangalore.</p>
+      <div class="hero-buttons"><a class="btn btn-primary" href="#menu">Explore Our Menu ↓</a><a class="btn btn-outline" href="#contact">☎ Call to Order</a></div>
+    </div>
+    <div class="hero-art" aria-label="Illustration of delicious food"><div class="food-circle"><div class="food-emoji">🌯</div></div><div class="badge"><strong>FREE DELIVERY</strong>Within 3 Km</div></div>
+  </div>
+</section>
+<div class="perks"><div class="wrap perks-grid"><div class="perk"><b>🍽️ Dine In</b>Enjoy it fresh at our restaurant</div><div class="perk"><b>🥡 Take Away</b>Your favourites, packed to go</div><div class="perk"><b>🛵 Home Delivery</b>Free within 3 km</div></div></div>
+
+<section id="menu">
+  <div class="wrap">
+    <div class="section-head"><div class="kicker">Made fresh, served with love</div><h2>Our Menu</h2><p>Find your favourites. Prices are in Indian rupees. For items marked “Price on request,” please call us.</p></div>
+    <div class="menu-tabs" role="group" aria-label="Filter menu">
+      <button class="tab active" data-filter="all">All Items</button><button class="tab" data-filter="shawarma">Shawarma</button><button class="tab" data-filter="tikka">Tikka</button><button class="tab" data-filter="alfaham">Al-Faham</button><button class="tab" data-filter="drinks">Juices &amp; Drinks</button><button class="tab" data-filter="extras">Extras</button>
+    </div>
+    <div class="menu-grid" id="menuGrid">
+      <article class="menu-card" data-category="shawarma"><div class="food-icon">🌯</div><div><div class="dish">Chicken Regular Shawarma</div><div class="desc">A classic favourite</div></div><div class="price">₹70</div></article>
+      <article class="menu-card" data-category="shawarma"><div class="food-icon">🌯</div><div><div class="dish">Chicken Meat Shawarma</div><div class="desc">Loaded with chicken</div></div><div class="price">₹100</div></article>
+      <article class="menu-card" data-category="shawarma"><div class="food-icon">🍽️</div><div><div class="dish">Chicken Plate Shawarma</div><div class="desc">Shawarma served on a plate</div></div><div class="price">₹130</div></article>
+      <article class="menu-card" data-category="shawarma"><div class="food-icon">🍽️</div><div><div class="dish">Chicken Meat Plate Shawarma</div><div class="desc">Chicken meat plate</div></div><div class="price">₹180</div></article>
+      <article class="menu-card" data-category="shawarma"><div class="food-icon">🧀</div><div><div class="dish">Paneer Shawarma</div><div class="desc">Vegetarian option</div></div><div class="price">₹80</div></article>
+      <article class="menu-card" data-category="shawarma"><div class="food-icon">🧀</div><div><div class="dish">Paneer Plate Shawarma</div><div class="desc">Paneer served on a plate</div></div><div class="price">₹150</div></article>
+      <article class="menu-card" data-category="tikka"><div class="food-icon">🍗</div><div><div class="dish">Chicken Tikka</div><div class="desc">1 piece</div></div><div class="price">₹80</div></article>
+      <article class="menu-card" data-category="tikka"><div class="food-icon">🍗</div><div><div class="dish">Chicken Tikka Half Plate</div><div class="desc">4 pieces</div></div><div class="price">₹300</div></article>
+      <article class="menu-card" data-category="tikka"><div class="food-icon">🍗</div><div><div class="dish">Chicken Tikka Plate</div><div class="desc">8 pieces</div></div><div class="price">₹560</div></article>
+      <article class="menu-card" data-category="alfaham"><div class="food-icon">🔥</div><div><div class="dish">Chicken Al-faham Quarter</div><div class="desc">Quarter portion</div></div><div class="price">₹140</div></article>
+      <article class="menu-card" data-category="alfaham"><div class="food-icon">🔥</div><div><div class="dish">Al-faham Half</div><div class="desc">Half portion</div></div><div class="price">₹280</div></article>
+      <article class="menu-card" data-category="alfaham"><div class="food-icon">🔥</div><div><div class="dish">Al-faham Full</div><div class="desc">Full portion</div></div><div class="price">₹520</div></article>
+      <article class="menu-card" data-category="drinks"><div class="food-icon">🍇</div><div><div class="dish">Special Pulpi Grape Juice</div><div class="desc">Our special juice</div></div><div class="price">₹35</div></article>
+      <article class="menu-card" data-category="drinks"><div class="food-icon">🍊</div><div><div class="dish">Orange Juice</div><div class="desc">Fresh juice</div></div><div class="price na">Ask us</div></article>
+      <article class="menu-card" data-category="drinks"><div class="food-icon">🍉</div><div><div class="dish">Watermelon Juice</div><div class="desc">Fresh juice</div></div><div class="price na">Ask us</div></article>
+      <article class="menu-card" data-category="drinks"><div class="food-icon">🍍</div><div><div class="dish">Pineapple Juice</div><div class="desc">Fresh juice</div></div><div class="price na">Ask us</div></article>
+      <article class="menu-card" data-category="drinks"><div class="food-icon">🍋</div><div><div class="dish">Mosambi Juice</div><div class="desc">Fresh juice</div></div><div class="price na">Ask us</div></article>
+      <article class="menu-card" data-category="drinks"><div class="food-icon">🥤</div><div><div class="dish">Lime Juice</div><div class="desc">Refreshing drink</div></div><div class="price na">Ask us</div></article>
+      <article class="menu-card" data-category="drinks"><div class="food-icon">🥤</div><div><div class="dish">Cold Drink — Coke</div></div><div class="price">₹20</div></article>
+      <article class="menu-card" data-category="drinks"><div class="food-icon">🥤</div><div><div class="dish">Cold Drink — Sprite</div></div><div class="price">₹20</div></article>
+      <article class="menu-card" data-category="drinks"><div class="food-icon">🥤</div><div><div class="dish">Cold Drink — Thumbs Up</div></div><div class="price">₹20</div></article>
+      <article class="menu-card" data-category="drinks"><div class="food-icon">🥤</div><div><div class="dish">Cold Drink — Fanta</div></div><div class="price">₹20</div></article>
+      <article class="menu-card" data-category="drinks"><div class="food-icon">🥤</div><div><div class="dish">Cold Drink — Limka</div></div><div class="price">₹20</div></article>
+      <article class="menu-card" data-category="drinks"><div class="food-icon">💧</div><div><div class="dish">Water Bottle</div></div><div class="price">₹20</div></article>
+      <article class="menu-card" data-category="extras"><div class="food-icon">🫓</div><div><div class="dish">Kuboos</div><div class="desc">Per piece</div></div><div class="price">₹10</div></article>
+      <article class="menu-card" data-category="extras"><div class="food-icon">🥣</div><div><div class="dish">Mayonnaise</div><div class="desc">Extra dip</div></div><div class="price">₹10</div></article>
+      <article class="menu-card" data-category="extras"><div class="food-icon">🌿</div><div><div class="dish">Green Chutney</div><div class="desc">Extra dip</div></div><div class="price">₹10</div></article>
+    </div>
+  </div>
+</section>
+
+<section class="delivery" id="delivery">
+  <div class="wrap delivery-box"><div><div class="kicker">Good food, delivered</div><h2>Free Home Delivery</h2><p>Enjoy your favourites from Shawarma and Tikka Junction at home.<br><strong>Free home delivery within 3 km of our restaurant.</strong></p><div class="hero-buttons"><a class="btn btn-primary" href="https://wa.me/916361208435?text=Hi%20Shawarma%20and%20Tikka%20Junction%2C%20I%20would%20like%20to%20place%20an%20order.">Order on WhatsApp</a></div></div><div class="big">🛵</div></div>
+</section>
+
+<section id="about">
+  <div class="wrap"><div class="section-head"><div class="kicker">Your food, your way</div><h2>Eat Good. Feel Good.</h2><p>Whether you’re stopping by with friends or grabbing a quick meal, we’re here to make it tasty.</p></div>
+    <div class="services-grid"><div class="service"><div class="ico">🍽️</div><h3>Dine In</h3><p>Enjoy good food and great company.</p></div><div class="service"><div class="ico">🥡</div><h3>Take Away</h3><p>Pick up your favourites on the go.</p></div><div class="service"><div class="ico">🛵</div><h3>Home Delivery</h3><p>Free delivery within 3 km.</p></div></div>
+  </div>
+</section>
+
+<section class="contact" id="contact">
+  <div class="wrap contact-grid"><div><div class="kicker">We’re ready for your order</div><h2>Good Food.<br>Great Company.</h2><p><strong>Shawarma and Tikka Junction</strong><br>Shakthi Fine Dine, Bar and Family Restaurant<br>Shakthinagara, Mangalore</p><p>Call us for orders, enquiries and current juice prices.</p></div>
+  <div class="phone-list"><a class="phone" href="tel:+916361208435">📞 63612 08435 <span>Call ↗</span></a><a class="phone" href="tel:+919945993391">📞 99459 93391 <span>Call ↗</span></a><a class="phone" href="https://wa.me/916361208435?text=Hi%2C%20I%20would%20like%20to%20order%20from%20Shawarma%20and%20Tikka%20Junction.">💬 WhatsApp Order <small>Message us ↗</small></a></div>
+  </div>
+</section>
+</main>
+<footer><div class="wrap foot"><div><div class="brand"><span class="mark">🔥</span><span>SHAWARMA AND TIKKA JUNCTION<small>SHAKTHINAGARA, MANGALORE</small></span></div><p>Shakthi Fine Dine, Bar and Family Restaurant</p></div><div class="foot-tag">EAT SHAWARMA · LIVE HAPPIER</div><p>© <span id="year"></span> Shawarma and Tikka Junction</p></div></footer>
+<a class="float-order" href="https://wa.me/916361208435?text=Hi%2C%20I%20would%20like%20to%20place%20an%20order.">💬 Order on WhatsApp</a>
+<script>
+const tabs = document.querySelectorAll('.tab');
+const cards = document.querySelectorAll('.menu-card');
+tabs.forEach(tab => tab.addEventListener('click', () => {
+  tabs.forEach(t => t.classList.remove('active'));
+  tab.classList.add('active');
+  const filter = tab.dataset.filter;
+  cards.forEach(card => card.hidden = !(filter === 'all' || card.dataset.category === filter));
+}));
+document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+</body>
+</html>
